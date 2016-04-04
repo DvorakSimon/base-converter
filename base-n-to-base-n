@@ -1,1 +1,8 @@
 C++ file that provides converting between bases recursively.
+
+1. Get the user input via parser.
+2. Then switch betweet params (use if) to know which exact function use. -h = help, -hex a4 44 f8 = translate a4 44 f8 to decimal.
+3. Check if the user to translate value is correct
+  for example: user wants to translate hexadecimal to decimal and use "m" to translate. Base 16 uses only first eight letters
+  and first eight numbers.
+4. If it is correct than return the answear.
