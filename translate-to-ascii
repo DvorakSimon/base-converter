@@ -1,0 +1,3 @@
+C++ file that provides translating ASCII number to char.
+1. It will translate native base to decimal and then it will translate it.
+2. Return value.
