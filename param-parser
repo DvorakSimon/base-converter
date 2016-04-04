@@ -1,1 +1,6 @@
 C++ file that will contain a code for get, parse and sanitize user param input.
+
+1. It will get the input trought argc and argv[]
+2. Put the even index of argv[i] to -> std::vector<string> param and odd to std::vector<string> value.
+3. If it contains more than two inputs (one param and one value) than return error message.
+4. If it is correct than try to return two dimensional vector with params and values.
